@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eeeeee;
+}
+
+p {
+font-size: 1.6rem;
+line-height: 1.5;
+
+}
+
+img {
+    width: 100%
+}
+
+/* STARTHERE */
+
+.container {
+    max-width:  900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.quiz-box { 
+width: 600px;
+margin: 0 auto;
+background-color: #3f83ff;
+padding: 1rem 5rem 5rem 5rem;
+border: 3px  solid #969696;
+border-radius: 5px;
+
+
+}
+
+
+.quiz-box h1 { 
+    background-color: #ffffff;
+    padding: 1rem 0rem;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
